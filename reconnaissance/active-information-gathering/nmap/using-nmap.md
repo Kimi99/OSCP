@@ -46,6 +46,7 @@ Some useful nmap tags:
 * \-v - Verbosity level, -vvv is the highest one. You can start the all port scan and increase the verbosity to get port information on the go. You can also press the V-key to increase the verbosity while the scan is running
 * \-oA - output all formats of the scan result to 3 files with different types (.gnmap, .nmap, .xml)
 * \-A - Enable OS detection, version detection, script scanning, and traceroute
+* \+ in the --script tag directs nmap to execute the script no matter what
 
 Useful combination: start the all port scan with high level verbosity and wait for a few moments. After you have some findings, start the dedicated port scan (using -p) to further enumerate the existing ports. The all port scan can continue working in the background.
 

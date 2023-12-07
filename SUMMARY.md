@@ -11,5 +11,6 @@
     * [Server-side request forgery (SSRF)](vulnerability-analysis/http-web-vulnerabilities/server-side-request-forgery-ssrf.md)
     * [Broken Access Control](vulnerability-analysis/http-web-vulnerabilities/broken-access-control.md)
     * [Authentication vulnerabilities](vulnerability-analysis/http-web-vulnerabilities/authentication-vulnerabilities.md)
+    * [XML External entity (XXE) injection](vulnerability-analysis/http-web-vulnerabilities/xml-external-entity-xxe-injection.md)
   * [SQL Injection](vulnerability-analysis/sql-injection.md)
 * [Port forwarding](port-forwarding.md)
