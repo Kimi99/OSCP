@@ -10,5 +10,6 @@
   * [HTTP Web vulnerabilities](vulnerability-analysis/http-web-vulnerabilities/README.md)
     * [Server-side request forgery (SSRF)](vulnerability-analysis/http-web-vulnerabilities/server-side-request-forgery-ssrf.md)
     * [Broken Access Control](vulnerability-analysis/http-web-vulnerabilities/broken-access-control.md)
+    * [Authentication vulnerabilities](vulnerability-analysis/http-web-vulnerabilities/authentication-vulnerabilities.md)
   * [SQL Injection](vulnerability-analysis/sql-injection.md)
 * [Port forwarding](port-forwarding.md)
