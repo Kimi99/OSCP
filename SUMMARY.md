@@ -14,5 +14,6 @@
     * [XML External entity (XXE) injection](vulnerability-analysis/http-web-vulnerabilities/xml-external-entity-xxe-injection.md)
     * [CMS exploitations](vulnerability-analysis/http-web-vulnerabilities/cms-exploitations/README.md)
       * [Wordpress](vulnerability-analysis/http-web-vulnerabilities/cms-exploitations/wordpress.md)
+    * [JWT attacks](vulnerability-analysis/http-web-vulnerabilities/jwt-attacks.md)
   * [SQL Injection](vulnerability-analysis/sql-injection.md)
 * [Port forwarding](port-forwarding.md)
