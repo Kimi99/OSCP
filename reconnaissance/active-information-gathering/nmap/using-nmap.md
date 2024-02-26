@@ -22,6 +22,7 @@ nmap -sC -sV -oA <FILE_PATH> <TARGET_IP>
 
 # Fast scan
 nmap -F <TARGET_IP>
+nmap -sS -p- -T5 -vvv <TARGET_IP>
 
 # Scan the most common 100 ports
 nmap --top-ports 100 <TARGET_IP>
