@@ -636,7 +636,7 @@ Get-Process
     #+end_example
    
 *** Files, services and History 
-    search files recursively
+    search files recursively on Windows
     #+begin_example
 Get-ChildItem -Path C:\Users\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
     #+end_example
