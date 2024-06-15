@@ -335,6 +335,7 @@ nmap -sC -sV <IP>
 nmap -p- <IP>
 sudo nmap -sU -p161 <IP>
 proxychains nmap -sT --top-ports=100 -Pn <IP>
+for port in {4800..4900}; do proxychains nc -zv -w1 IP $port 2>&1 | grep OK; done (Bash script to scan port range with netcat)
    #+end_example
 
    Port scanning in windows
