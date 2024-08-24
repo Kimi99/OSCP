@@ -846,6 +846,11 @@ echo "python3 /tmp/rev.py" > demo.sh
 touch -- "--checkpoint-action=exec=sh demo.sh"
 touch -- "--checkpoint=1"
    #+end_example
+
+** Windows enable RDP
+  #+begin_example
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
+  #+end_example
   
 ** Windows
    TODO: 
