@@ -1011,6 +1011,10 @@ x86_64-w64-mingw32-gcc adduser_dll.c --shared -o adduser.dll
 
    ----------------------
 
+#+begin_example Reverse shell commands not working problem fix (e.g. whoami not found etc.)
+	set PATH=%SystemRoot%\system32;%SystemRoot%;
+#+end_example
+
 ** Windows AD
 
 *** Bruteforcing kerberos
