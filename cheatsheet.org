@@ -338,6 +338,7 @@ ssh -l root -i ~/.ssh/keys/root 127.0.0.1 -o IdentitiesOnly=true
 #+end_example
 
 * SSH Keys
+https://mqt.gitbook.io/oscp-notes/ssh-keys?source=post_page-----9c7f5b963559--------------------------------
 Use this to generate a ssh key pair in order to authenticate to target
 #+begin_example
 ssh-keygen -q -N '' -t rsa 
