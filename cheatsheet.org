@@ -326,6 +326,17 @@ chisel64.exe client 192.168.45.217:8000 R:socks
 socks5 127.0.0.1:1080
    #+end_example
 
+* Problems and fixes
+** SSH
+SSH might throw an error like this: 
+Received disconnect from 127.0.0.1 port 22:2: Too many authentication failures
+Disconnected from 127.0.0.1 port 22
+
+Use this to fix (https://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/), PG box boolean:
+#+begin_example
+ssh -l root -i ~/.ssh/keys/root 127.0.0.1 -o IdentitiesOnly=true
+#+end_example
+
 * Enumeration
   
 ** General
