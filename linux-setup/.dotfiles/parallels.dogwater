@@ -1,0 +1,10 @@
+When you start the Parallels VM, there will likely be a warning triangle in the top right of the application window prompting you to Install Parallels Tools. Click this to insert the Parallel Tools disk into the VM.
+
+You need to remount the Parallels Tools disk in exec mode, so 
+  cd /media && sudo umount cdrom0 
+
+If the device is busy then you can unmount by right clicking the disk from the Kali desktop. 
+Once it’s unmounted, 
+  sudo mount -o exec /dev/cdrom cdrom 
+to mount again and make executable
+  cd cdrom and sudo ./install.
