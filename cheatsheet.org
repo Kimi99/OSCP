@@ -923,6 +923,11 @@ EXEC xp_cmdshell 'whoami';
    #+end_example
 
    ---------------
+
+Get More privileges with local service account
+	#+begin_example
+https://github.com/itm4n/FullPowers
+	#+end_example
    
    Exploit ~SeImpersonatePriv~
    #+begin_example
