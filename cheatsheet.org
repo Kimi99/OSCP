@@ -923,6 +923,11 @@ EXEC xp_cmdshell 'whoami';
    #+end_example
 
    ---------------
+Upload php reverse shell uploader to Windows machine using authenticated phpmyadmin
+	#+begin_example
+https://gist.github.com/BababaBlue/71d85a7182993f6b4728c5d6a77e669f
+	#+end_example
+
 
 Get More privileges with local service account
 	#+begin_example
